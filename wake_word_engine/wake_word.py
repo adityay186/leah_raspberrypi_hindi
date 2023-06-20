@@ -3,19 +3,19 @@ import pprint
 import subprocess
 from mtranslate import translate
 
-sys.path.append("/home/leah/Documents/leah-final/tools")
+sys.path.append("/home/leah/Documents/leah-final-hindi/tools")
 
-home_security_file = "/home/leah/Documents/leah-final/skills/home_security.py"
+home_security_file = "/home/leah/Documents/leah-final-hindi/skills/home_security.py"
 
 from color_print import print_green
 
 from mpg123_player import play_mpg123
 
 print_green("WELCOME TO LEAH")
-play_mpg123("/home/leah/Documents/leah-final/wake_word_engine/leah_startup_sound.mp3")
+play_mpg123("/home/leah/Documents/leah-final-hindi/wake_word_engine/leah_startup_sound.mp3")
 
 print_green("PLEASE WAIT, SYSTEM IS LOADING..")
-play_mpg123("/home/leah/Documents/leah-final/wake_word_engine/please_wait.mp3")
+play_mpg123("/home/leah/Documents/leah-final-hindi/wake_word_engine/please_wait.mp3")
 
 print_green("IMPORTING REQUIRED LIBRARIES..")
 import struct
@@ -23,9 +23,9 @@ import pyaudio
 import pvporcupine
 
 print_green("IMPORTING MORE LIBRARIES..")
-sys.path.append("/home/leah/Documents/leah-final/tts_engine")
-sys.path.append("/home/leah/Documents/leah-final/intent_engine")
-sys.path.append("/home/leah/Documents/leah-final/skill_handle")
+sys.path.append("/home/leah/Documents/leah-final-hindi/tts_engine")
+sys.path.append("/home/leah/Documents/leah-final-hindi/intent_engine")
+sys.path.append("/home/leah/Documents/leah-final-hindi/skill_handle")
 
 print_green("IMPORTING FUNCTIONS..")
 print_green("IMPORTING INTENT ENGINE..")
