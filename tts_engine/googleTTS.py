@@ -23,6 +23,8 @@ class GoogleTTS:
             # Translate the text to Hindi
             self.translate_to_hindi()
 
+            print("gtts text : ", self.text)
+
             try:
                 # Create a gTTS object
                 tts = gTTS(text=self.text, lang=self.language)
